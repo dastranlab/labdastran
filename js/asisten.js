@@ -57,17 +57,22 @@ window.addEventListener('scroll', () => {
 
 
 const searchInput = document.getElementById("searchInput");
-  const cards = document.querySelectorAll(".asisten-card");
+const cards = document.querySelectorAll(".asisten-card");
 
-  searchInput.addEventListener("keyup", function () {
-    let filter = this.value.toLowerCase();
+searchInput.addEventListener("keyup", function () {
+  const filter = this.value.toLowerCase();
 
-    cards.forEach(card => {
-      let name = card.querySelector(".asisten-info h3").textContent.toLowerCase();
-      if (name.includes(filter)) {
-        card.style.display = "block";
-      } else {
-        card.style.display = "none";
-      }
-    });
+  cards.forEach(card => {
+    // ambil teks dari h3 dan h4 lalu gabung
+    const name = card.querySelector(".asisten-info h3").textContent.toLowerCase();
+    const fullname = card.querySelector(".asisten-info h4").textContent.toLowerCase();
+    const combined = `${name} ${fullname}`;   // gabungan keduanya
+
+    // cek apakah filter cocok dengan gabungan
+    if (combined.includes(filter)) {
+      card.style.display = "block";
+    } else {
+      card.style.display = "none";
+    }
   });
+});

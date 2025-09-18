@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     color: #000000;
     line-height: 1.6;
 }
@@ -58,12 +58,14 @@ header.scrolled {
 .navbar-center nav {
     display: flex;
     gap: 3.5rem;
+    align-items: center; 
 }
 
 .navbar-center nav a {
     text-decoration: none;
     color: #000;
-    font-weight: 350;
+    font-weight: 430;
+     font-size: 0.95rem; 
     transition: color 0.2s;
 }
 
@@ -225,12 +227,7 @@ header.scrolled {
     right: 0;
 }
 
-.mobile-menu nav a {
-    text-decoration: none;
-    color: #000;
-    font-size: 1.1rem;
-    -webkit-tap-highlight-color: transparent;
-}
+
 
 .mobile-menu nav {
     display: flex;
@@ -243,7 +240,8 @@ header.scrolled {
     padding: 0.5rem 0;
     text-decoration: none;
     color: #000;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .mobile-menu nav a:hover {
@@ -298,11 +296,11 @@ header.scrolled {
 }
 
 .hero-text h1 {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     margin: 0;
     color: white;
-    font-weight: 300;
-    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    font-weight: 370;
+    text-shadow: 4px 4px 12px rgba(0,0,0,0.8);
     
 }
 
@@ -310,7 +308,7 @@ header.scrolled {
     font-size: 1rem;
     margin-top: 1rem;
     color: white;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
 
 
@@ -441,10 +439,12 @@ header.scrolled {
 
 .video-intro .desc {
   color: #7B6456;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   letter-spacing: 1px;
   margin: 0;
+  font-weight: 500;
 }
+
 
 .video-wrapper {
   position: relative;
