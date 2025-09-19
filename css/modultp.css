@@ -255,9 +255,10 @@ header.scrolled {
 
 section.hero-praktikum {
   text-align: center;
-  padding: 4rem 1rem;
+  padding: 4rem 1rem 8rem;
   /*background-color: #ffffff;*/
   background: url('../asset/modul.png') no-repeat center/cover;
+  min-height: 80vh;
 }
 
 section.hero-praktikum h2 {
