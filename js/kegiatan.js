@@ -54,3 +54,18 @@ window.addEventListener('scroll', () => {
         header.classList.remove('scrolled');
     }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const cards = document.querySelectorAll(".event-card");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+        observer.unobserve(entry.target); // agar animasi hanya sekali
+      }
+    });
+  }, { threshold: 0.2 }); // 20% terlihat baru animasi
+
+  cards.forEach(card => observer.observe(card));
+});

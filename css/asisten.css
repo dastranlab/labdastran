@@ -282,11 +282,21 @@ header.scrolled {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   overflow: hidden;
   text-align: center;
-  transition: transform 0.3s ease;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
+.asisten-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Opsional: efek hover */
 .asisten-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .asisten-photo {

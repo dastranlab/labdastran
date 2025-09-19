@@ -307,14 +307,30 @@ header.scrolled {
   transition: transform 0.3s ease;
 }
 
-.event-card:hover {
-  transform: translateY(-5px);
-}
 
 .event-card img {
   width: 100%;
   height: 400px; /*ukuran foto*/
   object-fit: cover;
+}
+
+
+.event-card {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* Saat card terlihat di viewport */
+.event-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.event-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .event-info {
