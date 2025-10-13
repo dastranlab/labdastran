@@ -279,6 +279,8 @@ header.scrolled {
   font-size: 0.9rem;
   letter-spacing: 1px;
   margin: 0;
+  text-align: left;
+  text-indent: 10px;
 }
 
 #about h2 {

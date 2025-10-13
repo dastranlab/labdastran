@@ -127,9 +127,9 @@ function validateCertificate() {
     resultBox.className = "result success";
     resultBox.style.background = "#f1eee6";
     resultBox.style.border = "1px solid #7B6456";
-    certName.textContent = `Nama: ${found.name}`;
-    certWorkshop.textContent = `Workshop: ${found.workshop}`;
-    certNomor.textContent = `Nomor Sertifikat: ${found.id}`;
+    certName.textContent = `Nama : ${found.name}`;
+    certWorkshop.textContent = `Kegiatan : ${found.workshop}`;
+    certNomor.textContent = `Nomor Sertifikat : ${found.id}`;
     downloadLink.href = found.file;
     downloadLink.style.display = "inline-block";
   } else {
