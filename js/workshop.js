@@ -93,17 +93,194 @@ revealOnScroll(); // jalankan saat awal load juga
 
 const certificates = [
   {
-    name: "Muthia Rihadatul Aisyi",
-    id: "001/WRK/2025",
+    name: "Muh. Amirul Ramadhanu",
+    id: "DASTRAN-WS-10-2526-001",
     workshop: "Workshop Dastran 2025",
     file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
   },
+
   {
-    name: "Alif Pratama",
-    id: "002/WRK/2025",
-    workshop: "Workshop Workshop Dastran 2025",
+    name: "Kevin Imanuel Saputra Purba",
+    id: "DASTRAN-WS-10-2526-002",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Fazza Yuan Ikhwannaya",
+    id: "DASTRAN-WS-10-2526-003",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Kharisma Akbar",
+    id: "DASTRAN-WS-10-2526-004",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Samuel Chakra Vijaya Lumban Gaol",
+    id: "DASTRAN-WS-10-2526-005",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Keisya Fajriani",
+    id: "DASTRAN-WS-10-2526-006",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Fiqri Achmad Ardendi",
+    id: "DASTRAN-WS-10-2526-007",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Kevin Raihan Adianto",
+    id: "DASTRAN-WS-10-2526-008",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Syifa Agnesia ",
+    id: "DASTRAN-WS-10-2526-009",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Gabriel Nathan Noel Angelo",
+    id: "DASTRAN-WS-10-2526-010",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Salman Al Farisi",
+    id: "DASTRAN-WS-10-2526-011",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Muhamad Agisya Cahya Ramadhan ",
+    id: "DASTRAN-WS-10-2526-012",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Ana Tasya Putri",
+    id: "DASTRAN-WS-10-2526-013",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Yales Nof Romy T. Mendrofa",
+    id: "DASTRAN-WS-10-2526-014",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Falisha Salsabila",
+    id: "DASTRAN-WS-10-2526-015",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Nabila Sintya Wardhani",
+    id: "DASTRAN-WS-10-2526-016",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Fabio Syah Alvin",
+    id: "DASTRAN-WS-10-2526-017",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Muhammad Fadhli Afif Al Azizi",
+    id: "DASTRAN-WS-10-2526-018",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: " Kayla Nanda Nihan A.P",
+    id: "DASTRAN-WS-10-2526-019",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Ghaisan Rabbani ",
+    id: "DASTRAN-WS-10-2526-020",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Aldefan Yazdan Attaqee",
+    id: "DASTRAN-WS-10-2526-021",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Lutfi Riyani Pratiwi",
+    id: "DASTRAN-WS-10-2526-022",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Amirul Haqi Mardistya",
+    id: "DASTRAN-WS-10-2526-023",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Mario Stiven Naibaho",
+    id: "DASTRAN-WS-10-2526-024",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Daffa Maulana Firdaus",
+    id: "DASTRAN-WS-10-2526-025",
+    workshop: "Workshop Dastran 2025",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Amirul Haqi Mardistya",
+    id: "DASTRAN-WS-10-2526-026",
+    workshop: "Workshop Dastran 2025 - Peserta Terbaik",
+    file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
+  },
+
+  {
+    name: "Ghaisan Rabbani ",
+    id: "DASTRAN-WS-10-2526-027",
+    workshop: "Workshop Dastran 2025 - Peserta Terbaik",
     file: "https://dastranlaboratory.com/asset/sertifikat_workshop/sertif.pdf"
   }
+
 ];
 
 function validateCertificate() {
@@ -115,9 +292,16 @@ function validateCertificate() {
   const certNomor = document.getElementById("certNomor");
   const downloadLink = document.getElementById("downloadLink");
 
-  // Cek apakah nama dan ID ada di daftar sertifikat
+  // Kalau salah satu input kosong
+  if (!inputName || !inputID) {
+    alert("Masukkan nama dan nomor sertifikat terlebih dahulu.");
+    return;
+  }
+
+  // Cek apakah nama dan ID cocok di daftar sertifikat
   const found = certificates.find(cert => 
-    cert.name.toLowerCase() === inputName && cert.id.toUpperCase() === inputID
+    cert.name.trim().toLowerCase() === inputName && 
+    cert.id.trim().toUpperCase() === inputID
   );
 
   resultBox.style.display = "block";
@@ -127,21 +311,25 @@ function validateCertificate() {
     resultBox.className = "result success";
     resultBox.style.background = "#f1eee6";
     resultBox.style.border = "1px solid #7B6456";
+
     certName.textContent = `Nama : ${found.name}`;
     certWorkshop.textContent = `Kegiatan : ${found.workshop}`;
     certNomor.textContent = `Nomor Sertifikat : ${found.id}`;
+    
     downloadLink.href = found.file;
     downloadLink.style.display = "inline-block";
   } else {
-    // Tidak ditemukan
+    // Sertifikat tidak ditemukan
     resultBox.className = "result error";
     resultBox.style.background = "#fff0f0";
     resultBox.style.border = "1px solid #f5c2c2";
-    certName.textContent = "Sertifikat tidak ditemukan !";
+
+    certName.textContent = "Sertifikat tidak ditemukan!";
     certWorkshop.textContent = "";
     certNomor.textContent = "";
     downloadLink.style.display = "none";
   }
 }
+
 
 
