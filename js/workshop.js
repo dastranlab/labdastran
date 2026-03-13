@@ -93,7 +93,7 @@ revealOnScroll(); // jalankan saat awal load juga
 
 const certificates = [
   {
-    name: "Muh. Amirul Ramadhanu",
+    name: "Muh.Amirul Ramadhanu",
     id: "DASTRAN-WS-10-2526-001",
     workshop: "Workshop Dastran 2025",
     file: "https://dastranlaboratory.com/asset/sertifikat_workshop/1.pdf"
