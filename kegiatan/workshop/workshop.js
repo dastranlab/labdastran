@@ -278,7 +278,7 @@ const certificates = [
     name: "Ghaisan Rabbani",
     id: "DASTRAN-WS-10-2526-027",
     workshop: "Workshop Dastran 2025 - Peserta Terbaik",
-    file: "https://dastranlaboratory.com/kegiatan/sertifikat_workshop/Outstanding28.pdf"
+    file: "https://dastranlaboratory.com/kegiatan/workshop/sertifikat_workshop/Outstanding28.pdf"
   }
 
 ];
